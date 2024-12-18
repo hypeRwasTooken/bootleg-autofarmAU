@@ -5,8 +5,8 @@ do not execute until you load a map!!
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-local startPosition = Vector3.new(-503.2907409667969, -23.40001678466797, -1464.4521484375)
-local dropPosition = Vector3.new(-503.2907409667969, -23.40001678466797, -1464.4521484375)  
+local startPosition = Vector3.new(-503.2907409667969, -22.62101678466797, -1464.4521484375)
+local dropPosition = Vector3.new(-503.2907409667969, -22.62101678466797, -1464.4521484375)  
 local distanceThreshold = 200
 
 getgenv().RunScript = true
