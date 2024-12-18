@@ -1,3 +1,7 @@
+--[[
+do not execute until you load a map!!
+]]--
+
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
